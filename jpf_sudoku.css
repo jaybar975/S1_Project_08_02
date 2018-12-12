@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 6
+   Case Problem 2
+
+   Sudoku Style Sheet
+   Author: Justin Aybar 
+   Date: 12.12.18  
+
+   Filename: jpf_sudoku.css
+
+*/
+
+/* Table Styles */
+/* This sets the table element with a class called spuzzle with a border collapse of collapse, a margin of 0px auto, and a width of 90 percent */
+table.spuzzle {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 90%;
+}
+
+/* This sets the table data element with a border of 5 pixels outset and the color gray and with a width of 33.3 percent */
+td {
+    border: 5px outset gray;
+    width: 33.3%;
+}
+
+/* This sets the table heading element with the color gray and a padding of 10 pixels */
+th {
+    color: gray;
+    padding: 10px;
+}
+
+
+/* Inner Table Styles */
+/* This sets the table element with a class of subTable with a border collapse of collpase and a width of 100 percent */
+table.subTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* This sets the table element with a class of subTable and a table data element with a box shadow of inset, 0 pixels, 0 pixels, and 15 pixels, a border of 1 pixel, solid, and the color black, a font color of blue, a height of 40 pixels, a text align of center, and a vertical align to middle */
+table.subTable td {
+    box-shadow: inset 0px 0px 15px;
+    border: 1px solid black;
+    color: blue;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* This sets the table data element with a class of goldBox and another table data element with a background color of red, blue, green of 228, 199, 42 */
+td.goldBox td {
+    background-color: rgb(228, 199, 42);
+}
+
+/* This sets the table data element with a class of greenBox and another table data element with a background color of red, blue, green of 203, 229, 130 */
+td.greenBox td {
+    background-color: rgb(203, 229, 130);
+}
